@@ -1,1 +1,1 @@
-/home/schniz/.aliases
+alias clip='xclip -selection clipboard'
