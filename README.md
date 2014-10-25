@@ -1,7 +1,7 @@
 Its pretty awesome.
 ===================
 
-run `curl {LOLWAT I DONT HAVE THE LINK YET} | sh`
+run `curl https://raw.githubusercontent.com/Schniz/amazing-ubuntu/master/setup.sh | sh`
 
 You'll get
 ----------
