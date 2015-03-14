@@ -16,6 +16,8 @@ map ,s :w<CR>
 map <C--> zc
 map <C-+> zo
 
+imap <C-up> <Esc>:m .-2<CR>i
+imap <C-down> <Esc>:m .+1<CR>i
 imap <C-t> <Esc><C-t>
 
 map <C-l><C-k> :! npm test<CR>
@@ -40,6 +42,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'https://github.com/kien/ctrlp.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'terryma/vim-multiple-cursors'
 Plugin 'mattn/emmet-vim'
 Plugin 'wavded/vim-stylus'
 Plugin 'pangloss/vim-javascript'
