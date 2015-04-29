@@ -16,6 +16,7 @@ map ,s :w<CR>
 map <C--> zc
 map <C-+> zo
 
+imap <C-l> <Esc>:JsDoc<CR>a
 imap <C-up> <Esc>:m .-2<CR>i
 imap <C-down> <Esc>:m .+1<CR>i
 imap <C-t> <Esc><C-t>
@@ -23,7 +24,7 @@ imap <C-t> <Esc><C-t>
 map <C-l><C-k> :! npm test<CR>
 map <C-l><C-w> :! webpack<CR>
 
-colorscheme default
+colorscheme monokai
 
 " let mapleader=','
 
@@ -47,6 +48,7 @@ Plugin 'mattn/emmet-vim'
 Plugin 'wavded/vim-stylus'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+Plugin 'heavenshell/vim-jsdoc'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -65,8 +67,8 @@ filetype plugin indent on    " required
 "
 let indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_auto_colors = 0
-hi IndentGuidesOdd  guibg=0   ctermbg=8
-hi IndentGuidesEven guibg=darkgrey ctermbg=0
+" hi IndentGuidesOdd  guibg=0   ctermbg=8
+hi IndentGuidesEven guibg=black ctermbg=0
 
 let g:user_emmet_mode='a'    "enable all function in all mode.
 let g:user_emmet_expandabbr_key='<C-e>'   "This maps the expansion to Ctrl-space 
